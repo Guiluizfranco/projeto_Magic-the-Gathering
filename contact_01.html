@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex nav-space">
+        <div class="flex">
+          <div class="tag">
+            <p><strong>Trabalho de Faculdade</strong></p>
+            <p>
+              <strong class="color_orange">Wyden</strong> - Unimetrocamp,
+              Campinas-SP
+            </p>
+          </div>
+          <div class="tag flex">
+            <button id="Home" class="button-space">Home</button>
+            <button id="Project" class="button-space">Project</button>
+            <button id="Contact" class="button-space">Contact</button>
+            <button id="Collections" class="button-space">
+              Your Collections
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h3>Contato</h3>
+        <p>
+          Caso deseja entrar em contato conosco é muito fácil, basta nos enviar
+          um email:
+        </p>
+        <div>
+          <input type="text" placeholder="nome" />
+          <input type="text" placeholder="email" />
+          <input type="text" placeholder="assunto" />
+          <label for="emailBody">Message:</label>
+          <textarea
+            id="emailBody"
+            name="emailBody"
+            rows="10"
+            cols="50"
+            placeholder="Type your message here..."
+          ></textarea>
+          <button id="send">Enviar</button>
+        </div>
+      </section>
+      <section class="cards-background">
+        <div id="cards"></div>
+      </section>
+    </main>
+    <footer>
+      <h3>Veja mais nos seus githubs</h3>
+      <div class="flex footer-space">
+        <button id="Contact_Guilherme" class="">
+          <p>Guilherme</p>
+        </button>
+
+        <button id="Contact_Felipe" class="">
+          <p>Felipe</p>
+        </button>
+
+        <button id="Contact_Lucas" class="">
+          <p>Lucas</p>
+        </button>
+
+        <button id="Contact_Warley" class="">
+          <p>Warley</p>
+        </button>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
